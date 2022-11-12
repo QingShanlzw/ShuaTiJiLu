@@ -2,6 +2,12 @@
 思路：
 1、给定一个倍数 abc直接 用 abc 的倍数去看是不是满足123456789就好了
 而不是 把123456789按照dfs的方法一点一点去递归。
+当然也可以把所有数字全排列开来，这里可以使用c++的提供的一个函数：
+next_permutation这个函数有通用的模板：https://blog.csdn.net/qq_43488547/article/details/100032724
+ do  
+    {  
+        cout<<num[0]<<" "<<num[1]<<" "<<num[2]<<endl;  
+    }while(next_permutation(num,num+3));  
 2、题目给的abc 可能不是最简， 比如   123  给的是 10 20 30 等等，
 需要先求一下三个数的一个最简比例。 
 */
