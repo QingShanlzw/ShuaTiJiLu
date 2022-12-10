@@ -1,6 +1,19 @@
-#include<bits/stdc++.h>
+#include<iostream>
 using namespace std;
+
+class A{
+public:
+	A(int m){
+		x = m;
+		y =m;
+	}
+	int x;
+	int y;
+		
+};
+
 int main(){
-	cout<< decltype(1);
-	retrun 0;
+	A aa(5);
+	cout<<aa.x;
+	return 0;
 }
