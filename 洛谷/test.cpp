@@ -1,19 +1,15 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
-class A{
-public:
-	A(int m){
-		x = m;
-		y =m;
-	}
-	int x;
-	int y;
-		
-};
 
 int main(){
-	A aa(5);
-	cout<<aa.x;
+	vector<int>a(5,0);
+	cout<<a.size();
+	a.push_back(10);
+	cout<<a.size(); 
+	a.clear();
+	cout<<a.size(); 
+	a.push_back(1);
+	cout<<a.size(); 
 	return 0;
 }
