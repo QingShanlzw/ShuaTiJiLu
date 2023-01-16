@@ -1,2 +1,2 @@
 # ShuaTiJiLu
-ai~~~
+ai^^
